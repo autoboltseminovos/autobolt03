@@ -138,7 +138,7 @@ const AutoboltLanding = () => {
             </h1>
             
             <p className="text-sm sm:text-base md:text-lg lg:text-xl text-white/90 max-w-2xl px-2 sm:px-0">
-              Atenda instantaneamente, venda muito mais e poupe custos com o Agente Autobolt sua equipe de IA que nunca dorme!
+              Atenda instantaneamente, venda muito mais e poupe custos com o Agente Autobolt. O agente que nunca dorme
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start px-2 sm:px-0">
@@ -359,7 +359,7 @@ const AutoboltLanding = () => {
                   </div>
                   <div>
                     <div className="text-sm text-muted-foreground mb-2">Mensalidade</div>
-                    <div className="text-2xl text-gray-400 line-through">R$ 297</div>
+                    <div className="text-2xl text-gray-400 line-through">R$ 247</div>
                     <div className="text-4xl font-bold text-primary">R$ 197/mês</div>
                   </div>
                 </div>
