@@ -10,7 +10,7 @@
             </h1>
             
             <p>
-                Atenda instantaneamente, venda muito mais e poupe custos com o Agente Autobolt sua equipe de IA que nunca dorme!
+                Atenda instantaneamente, venda muito mais e poupe custos com o Agente Autobolt. O agente que nunca dorme
             </p>
             
             <a href="https://wa.me/5511999999999?text=Quero%20conhecer%20o%20Autobolt" class="cta-button" target="_blank">
@@ -131,6 +131,7 @@
         <div class="pricing-card">
             <h3>AUTOBOLT COMPLETO</h3>
             <div class="price">
+                <span style="text-decoration: line-through; opacity: 0.6; font-size: 0.8em;">R$ 247</span><br>
                 R$ 197
                 <span class="price-period">/mês</span>
             </div>
