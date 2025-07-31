@@ -451,6 +451,24 @@ const AutoboltLanding = () => {
                   devolvemos 100% do seu investimento.
                 </AccordionContent>
               </AccordionItem>
+              
+              <AccordionItem value="item-5" className="border rounded-lg px-6">
+                <AccordionTrigger className="text-lg font-semibold">
+                  Autobolt integra com qual plataforma?
+                </AccordionTrigger>
+                <AccordionContent className="text-muted-foreground">
+                  AUTOBOLT INTEGRA COM TODAS AS PLATAFORMAS OLX, ML, WEBMOTORS, NAPISTA, MOBIAUTO, DENTRE OUTRAS.
+                </AccordionContent>
+              </AccordionItem>
+              
+              <AccordionItem value="item-6" className="border rounded-lg px-6">
+                <AccordionTrigger className="text-lg font-semibold">
+                  Qual a limitação do Autobolt?
+                </AccordionTrigger>
+                <AccordionContent className="text-muted-foreground">
+                  Limitado a 50 carros no estoque, para mais carros consulte valores.
+                </AccordionContent>
+              </AccordionItem>
             </Accordion>
           </div>
         </div>
