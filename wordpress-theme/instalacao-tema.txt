@@ -1,0 +1,27 @@
+INSTRUÇÕES DE INSTALAÇÃO - TEMA AUTOBOLT WORDPRESS
+
+=== ARQUIVOS CRIADOS ===
+
+✓ style.css - Estilos principais do tema
+✓ index.php - Página inicial com toda landing page
+✓ header.php - Cabeçalho com meta tags SEO
+✓ footer.php - Rodapé com scripts analytics
+✓ functions.php - Funcionalidades e configurações
+✓ page.php - Template para páginas
+✓ single.php - Template para posts
+
+=== INSTALAÇÃO ===
+
+1. Copie todos os arquivos para uma pasta chamada "autobolt"
+2. Comprima em ZIP
+3. WordPress > Aparência > Temas > Adicionar novo > Enviar tema
+4. Ative o tema
+
+=== CONFIGURAÇÃO ===
+
+1. Adicione as imagens na pasta assets/
+2. Configure WhatsApp (substitua +5511999999999)
+3. Configure Analytics IDs no footer.php
+4. Personalize via Aparência > Personalizar
+
+Tema completo criado com sucesso!
