@@ -259,22 +259,15 @@ const AutoboltLanding = () => {
                   <blockquote className="text-lg italic text-foreground mb-6">
                     "{testimonial.quote}"
                   </blockquote>
-                  <div className="border-t pt-4">
-                    <div className="flex items-center gap-4">
-                      <img 
-                        src={testimonial.image} 
-                        alt={`${testimonial.name} - ${testimonial.company}`}
-                        className="w-16 h-16 rounded-full object-cover border-2 border-primary/20"
-                      />
-                      <div>
-                        <div className="font-semibold text-primary">{testimonial.name}</div>
-                        <div className="text-muted-foreground">{testimonial.company}</div>
-                        <div className="inline-block bg-secondary text-secondary-foreground px-3 py-1 rounded-full text-sm font-semibold mt-2">
-                          {testimonial.badge}
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                   <div className="border-t pt-4">
+                     <div>
+                       <div className="font-semibold text-primary">{testimonial.name}</div>
+                       <div className="text-muted-foreground">{testimonial.company}</div>
+                       <div className="inline-block bg-secondary text-secondary-foreground px-3 py-1 rounded-full text-sm font-semibold mt-2">
+                         {testimonial.badge}
+                       </div>
+                     </div>
+                   </div>
                 </CardContent>
               </Card>
             ))}
@@ -282,58 +275,6 @@ const AutoboltLanding = () => {
         </div>
       </section>
 
-      {/* Bonus Section */}
-      <section id="section-bonus" className={`py-20 px-4 bg-secondary/10 fade-in ${isVisible['section-bonus'] ? 'visible' : ''}`}>
-        <div className="container mx-auto text-center">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl font-bold text-primary mb-8">
-              🎁 Bônus Exclusivo
-            </h2>
-            
-            <Card className="card-floating bg-secondary/20 border-2 border-secondary overflow-hidden">
-              <CardContent className="p-0">
-                <div className="relative">
-                  <img 
-                    src={dashboardNetflix}
-                    alt="Dashboard de Vídeo Aulas"
-                    className="w-full h-48 object-cover"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
-                  <div className="absolute bottom-4 left-4">
-                    <div className="inline-flex items-center gap-2 bg-secondary text-secondary-foreground px-3 py-1 rounded-full text-sm font-semibold animate-pulse">
-                      ▶️ Reproduzindo agora
-                    </div>
-                  </div>
-                </div>
-                
-                <div className="p-8">
-                  <h3 className="text-2xl font-bold text-primary mb-6">
-                    Plataforma de Treinamento para Vendedor Humano
-                  </h3>
-                  <p className="text-xl text-muted-foreground leading-relaxed mb-8">
-                    Treinaremos os vendedores humanos da loja para não perder vendas, um guia completo com vídeo aulas focadas em resolver este problema.
-                  </p>
-                  
-                  <div className="grid md:grid-cols-2 gap-4">
-                    <div className="flex items-center gap-2 text-green-600">
-                      <CheckCircle className="w-6 h-6" />
-                      <span className="font-semibold">Vídeo aulas profissionais</span>
-                    </div>
-                    <div className="flex items-center gap-2 text-green-600">
-                      <CheckCircle className="w-6 h-6" />
-                      <span className="font-semibold">Guia completo de vendas</span>
-                    </div>
-                    <div className="flex items-center gap-2 text-green-600">
-                      <CheckCircle className="w-6 h-6" />
-                      <span className="font-semibold">Interface intuitiva</span>
-                    </div>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-          </div>
-        </div>
-      </section>
 
       {/* Pricing */}
       <section id="section-pricing" className={`py-20 px-4 gradient-primary fade-in ${isVisible['section-pricing'] ? 'visible' : ''}`}>
