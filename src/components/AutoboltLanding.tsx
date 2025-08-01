@@ -327,8 +327,8 @@ const AutoboltLanding = () => {
                   </div>
                 </div>
                 
-                <Button className="btn-primary w-full text-sm sm:text-base md:text-lg lg:text-xl py-3 md:py-4 lg:py-5 px-2 sm:px-3 md:px-4 lg:px-8 pulse-subtle">
-                  QUERO AGORA!
+                <Button className="bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-bold w-full text-sm sm:text-base md:text-lg lg:text-xl py-3 md:py-4 lg:py-5 px-2 sm:px-3 md:px-4 lg:px-8 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                  CONTRATAR AUTOBOLT
                   <ArrowRight className="ml-1 md:ml-2 lg:ml-3 w-4 h-4 md:w-5 md:h-5 lg:w-6 lg:h-6" />
                 </Button>
                 
