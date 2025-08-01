@@ -142,11 +142,18 @@ const AutoboltLanding = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start px-2 sm:px-0">
-              <Button className="btn-primary text-sm sm:text-base md:text-lg lg:text-xl px-4 sm:px-6 md:px-8 py-3 sm:py-4 md:py-6 w-full sm:w-auto">
-                <span className="block sm:hidden">QUERO O AUTOBOLT!</span>
-                <span className="hidden sm:block">QUERO O AUTOBOLT AGORA</span>
-                <ArrowRight className="ml-2 w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6" />
-              </Button>
+              <a 
+                href="https://wa.me/5571991867336?text=Olá! Quero contratar o Autobolt" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="w-full sm:w-auto"
+              >
+                <Button className="btn-primary text-sm sm:text-base md:text-lg lg:text-xl px-4 sm:px-6 md:px-8 py-3 sm:py-4 md:py-6 w-full sm:w-auto">
+                  <span className="block sm:hidden">QUERO O AUTOBOLT!</span>
+                  <span className="hidden sm:block">QUERO O AUTOBOLT AGORA</span>
+                  <ArrowRight className="ml-2 w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6" />
+                </Button>
+              </a>
             </div>
           </div>
           
@@ -327,6 +334,18 @@ const AutoboltLanding = () => {
                   </div>
                 </div>
                 
+                <a 
+                  href="https://wa.me/5571991867336?text=Olá! Quero contratar o Autobolt" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="block w-full"
+                >
+                  <Button className="bg-gradient-to-r from-primary to-secondary hover:from-primary/90 hover:to-secondary/90 text-white font-bold w-full text-sm sm:text-base md:text-lg lg:text-xl py-3 md:py-4 lg:py-5 px-2 sm:px-3 md:px-4 lg:px-8 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 pulse-subtle">
+                    💬 CONTATO
+                    <ArrowRight className="ml-1 md:ml-2 lg:ml-3 w-4 h-4 md:w-5 md:h-5 lg:w-6 lg:h-6" />
+                  </Button>
+                </a>
+                
                 
                 <div className="flex items-center justify-center gap-2 text-green-600">
                   <Shield className="w-5 h-5" />
@@ -422,10 +441,17 @@ const AutoboltLanding = () => {
             ⚠️ Atenção: Esta oferta é exclusiva para as 10 primeiras lojas que contratarem hoje.
           </p>
           <div className="inline-block bg-white/10 backdrop-blur-sm rounded-2xl p-4 md:p-8 border-2 border-white/30 mb-8 w-full max-w-md mx-auto">
-            <Button className="bg-white text-primary hover:bg-white/90 text-lg md:text-2xl px-6 md:px-12 py-4 md:py-6 font-bold shadow-2xl transform hover:scale-105 transition-all duration-300 w-full">
-              QUERO AGORA!
-              <ArrowRight className="ml-2 md:ml-3 w-5 h-5 md:w-6 md:h-6" />
-            </Button>
+            <a 
+              href="https://wa.me/5571991867336?text=Olá! Quero contratar o Autobolt" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="block w-full"
+            >
+              <Button className="bg-white text-primary hover:bg-white/90 text-lg md:text-2xl px-6 md:px-12 py-4 md:py-6 font-bold shadow-2xl transform hover:scale-105 transition-all duration-300 w-full">
+                QUERO AGORA!
+                <ArrowRight className="ml-2 md:ml-3 w-5 h-5 md:w-6 md:h-6" />
+              </Button>
+            </a>
           </div>
           <div className="text-sm opacity-75">
             ⚡ Resposta em menos de 2 minutos
